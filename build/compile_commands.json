@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/build",
+  "command": "/usr/bin/c++.exe   -I/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/include    -o CMakeFiles/atm.dir/Account.cxx.o -c /cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Account.cxx",
+  "file": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Account.cxx"
+},
+{
+  "directory": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/build",
+  "command": "/usr/bin/c++.exe   -I/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/include    -o CMakeFiles/atm.dir/ATM.cxx.o -c /cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/ATM.cxx",
+  "file": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/ATM.cxx"
+},
+{
+  "directory": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/build",
+  "command": "/usr/bin/c++.exe   -I/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/include    -o CMakeFiles/atm.dir/Bank.cxx.o -c /cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Bank.cxx",
+  "file": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Bank.cxx"
+},
+{
+  "directory": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/build",
+  "command": "/usr/bin/c++.exe   -I/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/include    -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c /cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/BaseDisplay.cxx",
+  "file": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/BaseDisplay.cxx"
+},
+{
+  "directory": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/build",
+  "command": "/usr/bin/c++.exe   -I/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/include    -o CMakeFiles/atm.dir/Main.cxx.o -c /cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Main.cxx",
+  "file": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Main.cxx"
+}
+]
