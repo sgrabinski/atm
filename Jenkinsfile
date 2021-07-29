@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        CPPTEST_HOME = "c:/Program\ Files/Parasoft/C++test/2021.1Standard"
+        /* CPPTEST_HOME = "c:/Program Files/Parasoft/C++test/2021.1Standard" */
         CMAKE_HOME = "c:/cygwin64/bin"
     }
     stages {
@@ -12,7 +12,7 @@ pipeline {
             } 
         }
         stage('Test') {
-            steps { bat "${CPPTEST_HOME}/cpptestcli -config 'builtin://Recommended Rules' -module . -input build/compile_commands.json" }
+            steps { bat "c:/Program Files/Parasoft/C++test/2021.1Standard/cpptestcli.exe -config 'builtin://Recommended Rules' -module . -input build/compile_commands.json" }
             post {
                 always {
                     archiveArtifacts artifacts: "reports/*", fingerprint: false
