@@ -1,27 +1,27 @@
 [
 {
-  "directory": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/build",
-  "command": "/usr/bin/c++.exe   -I/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/include    -o CMakeFiles/atm.dir/Account.cxx.o -c /cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Account.cxx",
-  "file": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Account.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build",
+  "command": "/usr/bin/c++.exe   -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/include\"    -o CMakeFiles/atm.dir/Account.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Account.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Account.cxx"
 },
 {
-  "directory": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/build",
-  "command": "/usr/bin/c++.exe   -I/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/include    -o CMakeFiles/atm.dir/ATM.cxx.o -c /cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/ATM.cxx",
-  "file": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/ATM.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build",
+  "command": "/usr/bin/c++.exe   -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/include\"    -o CMakeFiles/atm.dir/ATM.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/ATM.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/ATM.cxx"
 },
 {
-  "directory": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/build",
-  "command": "/usr/bin/c++.exe   -I/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/include    -o CMakeFiles/atm.dir/Bank.cxx.o -c /cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Bank.cxx",
-  "file": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Bank.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build",
+  "command": "/usr/bin/c++.exe   -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/include\"    -o CMakeFiles/atm.dir/Bank.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Bank.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Bank.cxx"
 },
 {
-  "directory": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/build",
-  "command": "/usr/bin/c++.exe   -I/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/include    -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c /cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/BaseDisplay.cxx",
-  "file": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/BaseDisplay.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build",
+  "command": "/usr/bin/c++.exe   -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/include\"    -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/BaseDisplay.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/BaseDisplay.cxx"
 },
 {
-  "directory": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/build",
-  "command": "/usr/bin/c++.exe   -I/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/include    -o CMakeFiles/atm.dir/Main.cxx.o -c /cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Main.cxx",
-  "file": "/cygdrive/d/myTests/JenkinsPipeline_c++test_cmake/atm/Main.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build",
+  "command": "/usr/bin/c++.exe   -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/include\"    -o CMakeFiles/atm.dir/Main.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Main.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Main.cxx"
 }
 ]
