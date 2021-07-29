@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        CPPTEST_HOME = "c:/Program~Files/Parasoft/C++test/2021.1Standard"
+        CPPTEST_HOME = "c:/Program^ Files/Parasoft/C++test/2021.1Standard"
         CMAKE_HOME = "c:/cygwin64/bin"
     }
     stages {
