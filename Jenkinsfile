@@ -12,11 +12,11 @@ pipeline {
             } 
         }
         stage('Test') {
-            steps { bat "${CPPTEST_HOME}/cpptestcli -config 'builtin://Recommended Rules' -report 'package/docu' -module . -input build/compile_commands.json" }
+            steps { bat "${CPPTEST_HOME}/cpptestcli -config 'builtin://Recommended Rules' -report 'package/doku' -module . -input build/compile_commands.json" }
             post {
                 always {
                     archiveArtifacts artifacts: "reports/*", fingerprint: false
-                    recordIssues tool: parasoftFindings(pattern: "reports/report.xml"),
+                    recordIssues tool: parasoftFindings(pattern: "package/doku/report.xml"),
                                  qualityGates: [
                                          [type: 'TOTAL_HIGH', threshold: 1, unstable: true],
                                          [type: 'TOTAL_ERROR', threshold: 1, unstable: true],
