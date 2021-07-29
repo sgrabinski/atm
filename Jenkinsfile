@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         CPPTEST_HOME = "c:/Program Files/Parasoft/C++test/2021.1Standard"
-        CMAKE_HOME = "C:/home/blizzard/piotr/bin/cmake-3.20.1-windows-x86_64/bin"
+        CMAKE_HOME = "c:/cygwin64/bin"
     }
     stages {
         stage('Build') {
