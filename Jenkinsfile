@@ -12,7 +12,7 @@ pipeline {
             } 
         }
         stage('Test') {
-            steps { bat "${CPPTEST_HOME}/cpptestcli -config 'builtin://Recommended Rules' -module . -input build/compile_commands.json" }
+            steps { bat "${CPPTEST_HOME}/cpptestcli -config 'builtin://Recommended Rules' -report 'package/docu' -module . -input build/compile_commands.json" }
             post {
                 always {
                     archiveArtifacts artifacts: "reports/*", fingerprint: false
