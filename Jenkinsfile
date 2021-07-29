@@ -21,7 +21,7 @@ pipeline {
 	    }
             post {
                 always {
-                    archiveArtifacts artifacts: "reports/*", fingerprint: false
+                    archiveArtifacts artifacts: "package/doku/*", fingerprint: false
                     recordIssues tool: parasoftFindings(pattern: "package/doku/report.xml"),
                                  qualityGates: [
                                          [type: 'TOTAL_HIGH', threshold: 1, unstable: true],
