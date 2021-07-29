@@ -7,12 +7,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "${CMAKE_HOME}/cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -G 'Unix Makefiles' -S . -B build"
-                sh "${CMAKE_HOME}/cmake --build build"
+                bat "${CMAKE_HOME}/cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -G 'Unix Makefiles' -S . -B build"
+                bat "${CMAKE_HOME}/cmake --build build"
             } 
         }
         stage('Test') {
-            steps { sh "${CPPTEST_HOME}/cpptestcli -config 'builtin://Recommended Rules' -module . -input build/compile_commands.json" }
+            steps { bat "${CPPTEST_HOME}/cpptestcli -config 'builtin://Recommended Rules' -module . -input build/compile_commands.json" }
             post {
                 always {
                     archiveArtifacts artifacts: "reports/*", fingerprint: false
