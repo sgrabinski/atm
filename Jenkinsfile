@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Test') {
             steps { 
-		bat "${CPPTEST_HOME}/cpptestcli -config 'user://RecommendedRules' -report 'package/doku' -module . -input build/fixed_compile_commands.json" 
+		bat "${CPPTEST_HOME}/cpptestcli -config user://RecommendedRules -report package/doku -module . -input build/fixed_compile_commands.json" 
 	    }
             post {
                 always {
