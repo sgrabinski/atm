@@ -9,7 +9,7 @@ pipeline {
             steps {
                 bat "${CMAKE_HOME}/cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -G 'Unix Makefiles' -S . -B build"
                 bat "${CMAKE_HOME}/cmake --build build"
-				bat "sed -e 's@\/cygdrive\/c@c\:@g' -e 's@\/usr\/bin\/@@g' build\compile_commands.json  > build/fixed_compile_commands.json"
+				bat "sed -e 's@\\/cygdrive\\/c@c\\:@g' -e 's@\\/usr\\/bin\\/@@g' build/compile_commands.json  > build/fixed_compile_commands.json"
             } 
         }
         stage('Test') {
