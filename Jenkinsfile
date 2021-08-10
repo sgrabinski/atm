@@ -22,7 +22,7 @@ pipeline {
             post {
                 always {
                     archiveArtifacts artifacts: "package/doku/*", fingerprint: false
-                    recordIssues tool: parasoftFindings(localSettingsPath: 'd:/localSettings777.properties', pattern: 'package/doku/*'),
+                    recordIssues tool: parasoftFindings(localSettingsPath: 'd:/localSettings.properties', pattern: 'package/doku/*'),
                                  qualityGates: [
                                          [type: 'TOTAL_HIGH', threshold: 1, unstable: true],
                                          [type: 'TOTAL_ERROR', threshold: 1, unstable: true],
