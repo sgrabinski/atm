@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/include" 
+CXX_INCLUDES = -I"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include" 
 

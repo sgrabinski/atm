@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline
+# Install script for directory: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -26,37 +26,37 @@ vector
 
 ../include/BaseDisplay.hxx
 
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/ATM.cxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/ATM.cxx
 ATM.hxx
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/ATM.hxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/ATM.hxx
 BaseDisplay.hxx
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/BaseDisplay.hxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/BaseDisplay.hxx
 
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Account.cxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Account.cxx
 Account.hxx
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Account.hxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Account.hxx
 
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Bank.cxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Bank.cxx
 Bank.hxx
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Bank.hxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Bank.hxx
 Account.hxx
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Account.hxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Account.hxx
 
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/BaseDisplay.cxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/BaseDisplay.cxx
 BaseDisplay.hxx
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/BaseDisplay.hxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/BaseDisplay.hxx
 iostream
 -
 
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Main.cxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Main.cxx
 iostream
 -
 ATM.hxx
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/ATM.hxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/ATM.hxx
 BaseDisplay.hxx
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/BaseDisplay.hxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/BaseDisplay.hxx
 Bank.hxx
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Bank.hxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Bank.hxx
 Account.hxx
-/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/Account.hxx
+/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Account.hxx
 

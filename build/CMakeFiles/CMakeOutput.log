@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/3.17.3/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/3.17.3/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++.exe 
@@ -23,27 +23,27 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/3.17.3/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/3.17.3/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make.exe cmTC_11d10/fast && /usr/bin/make  -f CMakeFiles/cmTC_11d10.dir/build.make CMakeFiles/cmTC_11d10.dir/build
-make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_11d10.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_11d10.dir/testCCompiler.c.o   -c "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+/usr/bin/cc    -o CMakeFiles/cmTC_11d10.dir/testCCompiler.c.o   -c "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp/testCCompiler.c"
 Linking C executable cmTC_11d10.exe
 /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_11d10.dir/link.txt --verbose=1
 /usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_11d10.dir/testCCompiler.c.o  -o cmTC_11d10.exe -Wl,--out-implib,libcmTC_11d10.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make.exe cmTC_e25b6/fast && /usr/bin/make  -f CMakeFiles/cmTC_e25b6.dir/build.make CMakeFiles/cmTC_e25b6.dir/build
-make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_e25b6.dir/CMakeCCompilerABI.c.o
 /usr/bin/cc   -v -o CMakeFiles/cmTC_e25b6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.17.3/Modules/CMakeCCompilerABI.c
 Using built-in specs.
@@ -96,7 +96,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e25b6.exe' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/SGRABI~1/AppData/Local/Temp/cceepoQX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_e25b6.exe /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/9.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../.. --enable-auto-import CMakeFiles/cmTC_e25b6.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_e25b6.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/crtend.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e25b6.exe' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -115,10 +115,10 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make.exe cmTC_e25b6/fast && /usr/bin/make  -f CMakeFiles/cmTC_e25b6.dir/build.make CMakeFiles/cmTC_e25b6.dir/build]
-  ignore line: [make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp']
   ignore line: [Building C object CMakeFiles/cmTC_e25b6.dir/CMakeCCompilerABI.c.o]
   ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_e25b6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.17.3/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
@@ -249,24 +249,24 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make.exe cmTC_13a43/fast && /usr/bin/make  -f CMakeFiles/cmTC_13a43.dir/build.make CMakeFiles/cmTC_13a43.dir/build
-make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_13a43.dir/testCXXCompiler.cxx.o
-/usr/bin/c++.exe     -o CMakeFiles/cmTC_13a43.dir/testCXXCompiler.cxx.o -c "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+/usr/bin/c++.exe     -o CMakeFiles/cmTC_13a43.dir/testCXXCompiler.cxx.o -c "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
 Linking CXX executable cmTC_13a43.exe
 /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_13a43.dir/link.txt --verbose=1
 /usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_13a43.dir/testCXXCompiler.cxx.o  -o cmTC_13a43.exe -Wl,--out-implib,libcmTC_13a43.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make.exe cmTC_e62e3/fast && /usr/bin/make  -f CMakeFiles/cmTC_e62e3.dir/build.make CMakeFiles/cmTC_e62e3.dir/build
-make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_e62e3.dir/CMakeCXXCompilerABI.cpp.o
 /usr/bin/c++.exe    -v -o CMakeFiles/cmTC_e62e3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.17.3/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
@@ -322,7 +322,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e62e3.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/SGRABI~1/AppData/Local/Temp/ccUOiFz0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_e62e3.exe /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/9.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../.. --enable-auto-import CMakeFiles/cmTC_e62e3.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_e62e3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/9.3.0/crtend.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e62e3.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -347,10 +347,10 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make.exe cmTC_e62e3/fast && /usr/bin/make  -f CMakeFiles/cmTC_e62e3.dir/build.make CMakeFiles/cmTC_e62e3.dir/build]
-  ignore line: [make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline/build/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/CMakeTmp']
   ignore line: [Building CXX object CMakeFiles/cmTC_e62e3.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [/usr/bin/c++.exe    -v -o CMakeFiles/cmTC_e62e3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.17.3/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]

@@ -1,27 +1,27 @@
 [
 {
-  "directory": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/build",
-  "command": "c++.exe   -I\"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/include\"    -o CMakeFiles/atm.dir/Account.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/Account.cxx\"",
-  "file": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/Account.cxx"
+  "directory": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build",
+  "command": "c++.exe   -I\"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include\"    -o CMakeFiles/atm.dir/Account.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Account.cxx\"",
+  "file": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Account.cxx"
 },
 {
-  "directory": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/build",
-  "command": "c++.exe   -I\"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/include\"    -o CMakeFiles/atm.dir/ATM.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/ATM.cxx\"",
-  "file": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/ATM.cxx"
+  "directory": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build",
+  "command": "c++.exe   -I\"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include\"    -o CMakeFiles/atm.dir/ATM.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/ATM.cxx\"",
+  "file": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/ATM.cxx"
 },
 {
-  "directory": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/build",
-  "command": "c++.exe   -I\"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/include\"    -o CMakeFiles/atm.dir/Bank.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/Bank.cxx\"",
-  "file": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/Bank.cxx"
+  "directory": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build",
+  "command": "c++.exe   -I\"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include\"    -o CMakeFiles/atm.dir/Bank.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Bank.cxx\"",
+  "file": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Bank.cxx"
 },
 {
-  "directory": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/build",
-  "command": "c++.exe   -I\"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/include\"    -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/BaseDisplay.cxx\"",
-  "file": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/BaseDisplay.cxx"
+  "directory": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build",
+  "command": "c++.exe   -I\"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include\"    -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/BaseDisplay.cxx\"",
+  "file": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/BaseDisplay.cxx"
 },
 {
-  "directory": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/build",
-  "command": "c++.exe   -I\"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/include\"    -o CMakeFiles/atm.dir/Main.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/Main.cxx\"",
-  "file": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline/Main.cxx"
+  "directory": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build",
+  "command": "c++.exe   -I\"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include\"    -o CMakeFiles/atm.dir/Main.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Main.cxx\"",
+  "file": "c:/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Main.cxx"
 }
 ]
