@@ -12,7 +12,7 @@ pipeline {
 		bat "c++.exe -c -Iinclude ATM.cxx"
                 bat "${CMAKE_HOME}/cmake --build build"
 		bat "sed -e 's@\\/cygdrive\\/c@c\\:@g' -e 's@\\/usr\\/bin\\/@@g' build/compile_commands.json  > build/fixed_compile_commands.json"
-	        
+	        //new commit
             } 
         }
         stage('Test') {
