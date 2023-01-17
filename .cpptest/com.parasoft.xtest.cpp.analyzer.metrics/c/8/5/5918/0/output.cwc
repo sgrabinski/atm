@@ -1,0 +1,180 @@
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\BaseDisplay.cxx
+<c>INTERNAL-METRICS-CC
+<b>FUNC=BaseDisplay::showInfoToUser(const char *); CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>6
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\BaseDisplay.cxx
+<c>INTERNAL-METRICS-METHODS2
+<b>CLASS=BaseDisplay; SIGNATURE=BaseDisplay::showInfoToUser(const char *); PARAMNO=1; DEF=true; DIT=false; START_LINE=6; END_LINE=12; TEMPLATE_CLASS=; TEMPLATE_FUNC=
+<l>6
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\BaseDisplay.cxx
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=BaseDisplay::showInfoToUser(const char *); NBD=1; TEMPLATE_FUNC=
+<l>6
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\BaseDisplay.cxx
+<c>INTERNAL-METRICS-CC
+<b>FUNC=BaseDisplay::showBalance(double); CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>14
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\BaseDisplay.cxx
+<c>INTERNAL-METRICS-METHODS2
+<b>CLASS=BaseDisplay; SIGNATURE=BaseDisplay::showBalance(double); PARAMNO=1; DEF=true; DIT=false; START_LINE=14; END_LINE=17; TEMPLATE_CLASS=; TEMPLATE_FUNC=
+<l>14
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\BaseDisplay.cxx
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=BaseDisplay::showBalance(double); NBD=0; TEMPLATE_FUNC=
+<l>14
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\BaseDisplay.hxx
+<c>INTERNAL-METRICS-TYPES
+<b>CLASS=BaseDisplay; NAMESPACE=; TEMPLATE_TYPE=; TAG=class
+<l>4
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\BaseDisplay.hxx
+<c>INTERNAL-METRICS-CC
+<b>FUNC=BaseDisplay::BaseDisplay(); CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>9
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\BaseDisplay.hxx
+<c>INTERNAL-METRICS-METHODS2
+<b>CLASS=BaseDisplay; SIGNATURE=BaseDisplay::BaseDisplay(); PARAMNO=0; DEF=true; DIT=true; START_LINE=9; END_LINE=9; TEMPLATE_CLASS=; TEMPLATE_FUNC=
+<l>9
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\BaseDisplay.hxx
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=BaseDisplay::BaseDisplay(); NBD=0; TEMPLATE_FUNC=
+<l>9
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\BaseDisplay.hxx
+<c>INTERNAL-METRICS-CC
+<b>FUNC=BaseDisplay::~BaseDisplay(); CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>10
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\BaseDisplay.hxx
+<c>INTERNAL-METRICS-METHODS2
+<b>CLASS=BaseDisplay; SIGNATURE=BaseDisplay::~BaseDisplay(); PARAMNO=0; DEF=true; DIT=true; START_LINE=10; END_LINE=10; TEMPLATE_CLASS=; TEMPLATE_FUNC=
+<l>10
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\BaseDisplay.hxx
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=BaseDisplay::~BaseDisplay(); NBD=0; TEMPLATE_FUNC=
+<l>10
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\BaseDisplay.hxx
+<c>INTERNAL-METRICS-METHODS2
+<b>CLASS=BaseDisplay; SIGNATURE=BaseDisplay::showInfoToUser(const char *); PARAMNO=1; DEF=false; DIT=true; START_LINE=12; END_LINE=12; TEMPLATE_CLASS=; TEMPLATE_FUNC=
+<l>12
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\BaseDisplay.cxx
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=BaseDisplay::showInfoToUser(const char *); NBD=1; TEMPLATE_FUNC=
+<l>6
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\BaseDisplay.hxx
+<c>INTERNAL-METRICS-METHODS2
+<b>CLASS=BaseDisplay; SIGNATURE=BaseDisplay::showBalance(double); PARAMNO=1; DEF=false; DIT=true; START_LINE=13; END_LINE=13; TEMPLATE_CLASS=; TEMPLATE_FUNC=
+<l>13
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\BaseDisplay.cxx
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=BaseDisplay::showBalance(double); NBD=0; TEMPLATE_FUNC=
+<l>14
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\BaseDisplay.cxx
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=SBSSBSSSSSSSBSSSSB
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

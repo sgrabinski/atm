@@ -1,0 +1,40 @@
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\ATM.hxx
+<c>OPT-14
+<b>The parameter 'password' of function 'viewAccount' is passed by value
+<l>24
+<k>52
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\Account.hxx
+<c>CODSTA-CPP-04
+<b>Constructor 'Account' allowing conversion should be made explicit
+<l>16
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\Bank.hxx
+<c>OPT-14
+<b>The parameter 'password' of function 'getAccount' is passed by value
+<l>16
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\Git 3\include\BaseDisplay.hxx
+<c>OOP-23
+<b>Class 'BaseDisplay' has virtual functions without a virtual destructor
+<l>4
+<k>7
+<s>false
+<N>
+<f>
+<L>0
