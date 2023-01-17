@@ -12,9 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          npm install
-      - run: |
-          npm run compile
-      - run: |
-          npm run package
+- name: Upload results (SARIF)
+  if: always()
+  uses: github/codeql-action/upload-sarif@v2
+  with:
+    sarif_file: reports/report.sarif
