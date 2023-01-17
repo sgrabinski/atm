@@ -27,4 +27,4 @@ jobs:
       run: make distcheck
 
 name: Run Parasoft C/C++test
-  uses: parasoft/run-cpptest-action@1.0.1
+-  uses: parasoft/run-cpptest-action@1.0.1
