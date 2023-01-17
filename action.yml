@@ -43,3 +43,5 @@ inputs:
 runs:
   using: 'node12'
   main: 'dist/index.js'
+  name: Run Parasoft C/C++test
+  uses: parasoft/run-cpptest-action@1.0.1
