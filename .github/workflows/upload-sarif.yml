@@ -1,4 +1,4 @@
-name: C/C++test upload sarif
+name: 'C/C++test upload sarif'
 - name: Upload results (SARIF)
   if: always()
   uses: github/codeql-action/upload-sarif@v2
