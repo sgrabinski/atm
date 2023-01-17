@@ -1,27 +1,27 @@
 [
 {
-  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build",
-  "command": "/usr/bin/c++.exe   -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include\"    -o CMakeFiles/atm.dir/Account.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Account.cxx\"",
-  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Account.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/build",
+  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/include\"  -o CMakeFiles/atm.dir/Account.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/Account.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/Account.cxx"
 },
 {
-  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build",
-  "command": "/usr/bin/c++.exe   -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include\"    -o CMakeFiles/atm.dir/ATM.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/ATM.cxx\"",
-  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/ATM.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/build",
+  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/include\"  -o CMakeFiles/atm.dir/ATM.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/ATM.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/ATM.cxx"
 },
 {
-  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build",
-  "command": "/usr/bin/c++.exe   -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include\"    -o CMakeFiles/atm.dir/Bank.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Bank.cxx\"",
-  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Bank.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/build",
+  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/include\"  -o CMakeFiles/atm.dir/Bank.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/Bank.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/Bank.cxx"
 },
 {
-  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build",
-  "command": "/usr/bin/c++.exe   -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include\"    -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/BaseDisplay.cxx\"",
-  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/BaseDisplay.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/build",
+  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/include\"  -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/BaseDisplay.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/BaseDisplay.cxx"
 },
 {
-  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build",
-  "command": "/usr/bin/c++.exe   -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/include\"    -o CMakeFiles/atm.dir/Main.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Main.cxx\"",
-  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Main.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/build",
+  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/include\"  -o CMakeFiles/atm.dir/Main.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/Main.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/Main.cxx"
 }
 ]

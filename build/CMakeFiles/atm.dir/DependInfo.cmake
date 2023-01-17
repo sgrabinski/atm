@@ -1,20 +1,18 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/ATM.cxx" "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/atm.dir/ATM.cxx.o"
-  "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Account.cxx" "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/atm.dir/Account.cxx.o"
-  "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Bank.cxx" "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/atm.dir/Bank.cxx.o"
-  "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/BaseDisplay.cxx" "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/atm.dir/BaseDisplay.cxx.o"
-  "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/Main.cxx" "/cygdrive/c/Program Files (x86)/Jenkins/workspace/c++testPipeline_Git/build/CMakeFiles/atm.dir/Main.cxx.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/ATM.cxx" "CMakeFiles/atm.dir/ATM.cxx.o" "gcc" "CMakeFiles/atm.dir/ATM.cxx.o.d"
+  "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/Account.cxx" "CMakeFiles/atm.dir/Account.cxx.o" "gcc" "CMakeFiles/atm.dir/Account.cxx.o.d"
+  "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/Bank.cxx" "CMakeFiles/atm.dir/Bank.cxx.o" "gcc" "CMakeFiles/atm.dir/Bank.cxx.o.d"
+  "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/BaseDisplay.cxx" "CMakeFiles/atm.dir/BaseDisplay.cxx.o" "gcc" "CMakeFiles/atm.dir/BaseDisplay.cxx.o.d"
+  "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 3/Main.cxx" "CMakeFiles/atm.dir/Main.cxx.o" "gcc" "CMakeFiles/atm.dir/Main.cxx.o.d"
   )
 
 # Targets to which this target links.
