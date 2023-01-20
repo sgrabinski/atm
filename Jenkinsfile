@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        CPPTEST_HOME = "c:/Progra~1/Parasoft/cpptest/cpptest_2021.2.1_standard"
+        CPPTEST_HOME = "c:/Progra~1/Parasoft/cpptest/cpptest_2022.2_standard"
         CMAKE_HOME = "c:/cygwin64/bin"
         CONFIG = "builtin://Recommended Rules"
     }
