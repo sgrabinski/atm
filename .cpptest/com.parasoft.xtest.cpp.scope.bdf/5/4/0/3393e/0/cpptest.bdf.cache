@@ -1,0 +1,7 @@
+build=c:\Program Files (x86)\Jenkins\workspace\git 4\Account.cxx
+build=c:\Program Files (x86)\Jenkins\workspace\git 4\ATM.cxx
+build=c:\Program Files (x86)\Jenkins\workspace\git 4\Bank.cxx
+build=c:\Program Files (x86)\Jenkins\workspace\git 4\BaseDisplay.cxx
+build=c:\Program Files (x86)\Jenkins\workspace\git 4\Main.cxx
+#VER=1
+#CTX=-2023388112

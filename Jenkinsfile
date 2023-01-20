@@ -3,7 +3,8 @@ pipeline {
     environment {
         CPPTEST_HOME = "c:/Progra~1/Parasoft/cpptest/cpptest_2022.2_standard"
         CMAKE_HOME = "c:/cygwin64/bin"
-        CONFIG = "builtin://Recommended Rules"
+        //CONFIG = "builtin://Recommended Rules"
+		CONFIG = "builtin://Effective C++"
     }
     stages {
         stage('Build') {

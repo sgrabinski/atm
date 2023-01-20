@@ -8,6 +8,9 @@
          <rule header="Do not declare member variables as bit-fields" id="02" impl="CODSTA-02" quickfix="false" scope="line" severity="5">
             <file path="CODSTA\CODSTA-02.rule"/>
          </rule>
+         <rule header="A member of a union shall not be declared as a bit-field" id="02_b" impl="CODSTA-02_b" quickfix="false" scope="line" severity="3">
+            <file path="CODSTA\CODSTA-02_b.rule"/>
+         </rule>
          <rule header="Do not define constants via #define" id="03" impl="CODSTA-03" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-03.rule"/>
          </rule>
@@ -56,8 +59,20 @@
          <rule header="The standard header file &lt;tgmath.h&gt; shall not be used" id="108" impl="CODSTA-108" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-108.rule"/>
          </rule>
-         <rule header="The exception handling features of &lt;fenv.h&gt; should not be used" id="109" impl="CODSTA-109" quickfix="false" scope="line" severity="4">
+         <rule header="The facilities that are specified as being provided by &lt;tgmath.h&gt; should not be used" id="108_b" impl="CODSTA-108_b" quickfix="false" scope="line" severity="3">
+            <file path="CODSTA\CODSTA-108_b.rule"/>
+         </rule>
+         <rule header="All arguments to any type-generic macros declared in &lt;tgmath.h&gt; shall have appropriate essential type" id="108_c" impl="CODSTA-108_c" quickfix="false" scope="line" severity="2">
+            <file path="CODSTA\CODSTA-108_c.rule"/>
+         </rule>
+         <rule header="All arguments to any multi-argument type-generic macros declared in &lt;tgmath.h&gt; shall have the same standard type" id="108_d" impl="CODSTA-108_d" quickfix="false" scope="line" severity="2">
+            <file path="CODSTA\CODSTA-108_d.rule"/>
+         </rule>
+         <rule header="The features provided by &lt;fenv.h&gt; should not be used" id="109" impl="CODSTA-109" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-109.rule"/>
+         </rule>
+         <rule header="The standard header file &lt;fenv.h&gt; shall not be used" id="109_b" impl="CODSTA-109_b" quickfix="false" scope="line" severity="3">
+            <file path="CODSTA\CODSTA-109_b.rule"/>
          </rule>
          <rule header="Assert liberally to document internal assumptions and invariants" id="11" impl="CODSTA-11" quickfix="false" scope="line" severity="5">
             <file path="CODSTA\CODSTA-11.rule"/>
@@ -166,6 +181,9 @@
          </rule>
          <rule header="The identifiers va_list, va_arg, va_start, va_end should not be used" id="136_b" impl="CODSTA-136_b" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-136_b.rule"/>
+         </rule>
+         <rule header="The standard header file &lt;stdarg.h&gt; or &lt;cstdarg&gt; shall not be used" id="136_c" impl="CODSTA-136_c" quickfix="false" scope="line" severity="3">
+            <file path="CODSTA\CODSTA-136_c.rule"/>
          </rule>
          <rule header="The function call shall not be the operand of the sizeof operator" id="137" impl="CODSTA-137" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-137.rule"/>
@@ -368,7 +386,7 @@
          <rule header="A source file should not contain unused tag declarations" id="176_b" impl="CODSTA-176_b" quickfix="false" scope="line" severity="4">
             <file path="CODSTA\CODSTA-176_b.rule"/>
          </rule>
-         <rule header="A source file should not contain unused macro declarations" id="177" impl="CODSTA-177" quickfix="false" scope="line" severity="4">
+         <rule header="A source file should not contain unused macro definitions" id="177" impl="CODSTA-177" quickfix="false" scope="line" severity="4">
             <file path="CODSTA\CODSTA-177.rule"/>
          </rule>
          <rule header="External identifiers shall be distinct" id="178" impl="CODSTA-178" quickfix="false" scope="line" severity="3">
@@ -386,7 +404,7 @@
          <rule header="Identifiers declared in the same block scope and name space shall be distinct (c99)" id="179_b_c99" impl="CODSTA-179_b_c99" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-179_b_c99.rule"/>
          </rule>
-         <rule header="Prefer while statements over do statements" id="18" impl="CODSTA-18" quickfix="false" scope="line" severity="5">
+         <rule header="Prefer 'while' statements over 'do' statements" id="18" impl="CODSTA-18" quickfix="false" scope="line" severity="5">
             <file path="CODSTA\CODSTA-18.rule"/>
          </rule>
          <rule header="Identifiers that define objects or functions with external linkage shall be unique" id="180" impl="CODSTA-180" quickfix="false" scope="line" severity="3">
@@ -428,6 +446,9 @@
          <rule header="Do not add or subtract a scaled integer to a pointer" id="189" impl="CODSTA-189" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-189.rule"/>
          </rule>
+         <rule header="'Do' statements should not be used except in a function-like macro" id="18_b" impl="CODSTA-18_b" quickfix="false" scope="line" severity="4">
+            <file path="CODSTA\CODSTA-18_b.rule"/>
+         </rule>
          <rule header="Use the ctype.h facilities for character test" id="19" impl="CODSTA-19" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-19.rule"/>
          </rule>
@@ -449,7 +470,7 @@
          <rule header="Do not refer to an atomic variable twice in an expression" id="195" impl="CODSTA-195" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-195.rule"/>
          </rule>
-         <rule header="Do not access an array in the result of a function call" id="196" impl="CODSTA-196" quickfix="false" scope="line" severity="3">
+         <rule header="Do not modify objects with temporary lifetime" id="196" impl="CODSTA-196" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-196.rule"/>
          </rule>
          <rule header="Do not specify the bound of a character array initialized with a string literal" id="197" impl="CODSTA-197" quickfix="false" scope="line" severity="2">
@@ -496,6 +517,9 @@
          </rule>
          <rule header="The facilities that are specified as being provided by &lt;stdatomic.h&gt; should not be used" id="209" impl="CODSTA-209" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-209.rule"/>
+         </rule>
+         <rule header="Do not use the macro ATOMIC_VAR_INIT" id="209_b" impl="CODSTA-209_b" quickfix="false" scope="line" severity="3">
+            <file path="CODSTA\CODSTA-209_b.rule"/>
          </rule>
          <rule header="When using enum, the values of each member should be explicitly declared" id="21" impl="CODSTA-21" quickfix="false" scope="line" severity="5">
             <file path="CODSTA\CODSTA-21.rule"/>
@@ -545,6 +569,12 @@
          <rule header="Fixed width integer types from &lt;cstdint&gt;, indicating the size and signedness, shall be used in place of the basic numerical types" id="223" impl="CODSTA-223" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-223.rule"/>
          </rule>
+         <rule header="The conditional operator should not be used as a sub-expression" id="224" impl="CODSTA-224" quickfix="false" scope="line" severity="3">
+            <file path="CODSTA\CODSTA-224.rule"/>
+         </rule>
+         <rule header="Floating-point expressions shall not be explicitly (syntactically) tested for equality (==) or inequality (!=)" id="225" impl="CODSTA-225" quickfix="false" scope="line" severity="3">
+            <file path="CODSTA\CODSTA-225.rule"/>
+         </rule>
          <rule header="All 'if' statements should have an 'else' clause" id="23" impl="CODSTA-23" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-23.rule"/>
          </rule>
@@ -563,7 +593,7 @@
          <rule header="Define fields for union declarations" id="28" impl="CODSTA-28" quickfix="false" scope="line" severity="5">
             <file path="CODSTA\CODSTA-28.rule"/>
          </rule>
-         <rule header="&quot;#define&quot; or enum constants should be used instead of hard coded values whenever possible" id="29" impl="CODSTA-29" quickfix="false" scope="line" severity="3">
+         <rule header="Use meaningful symbolic constants to represent literal values" id="29" impl="CODSTA-29" quickfix="false" scope="line" severity="3">
             <file path="CODSTA\CODSTA-29.rule"/>
          </rule>
          <rule header="Avoid returning handles to function parameters" id="30" impl="CODSTA-30" quickfix="false" scope="line" severity="3">
@@ -993,6 +1023,9 @@
             <rule header="Only those escape sequences that are defined in ISO/IEC 14882:2003 shall be used" id="60" impl="CODSTA-CPP-60" quickfix="false" scope="line" severity="3">
                <file path="CODSTA-CPP\CODSTA-CPP-60.rule"/>
             </rule>
+            <rule header="Only those escape sequences that are defined in ISO/IEC 14882:2014 shall be used" id="60_b" impl="CODSTA-CPP-60_b" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-CPP\CODSTA-CPP-60_b.rule"/>
+            </rule>
             <rule header="NULL shall not be used as an integer value" id="62" impl="CODSTA-CPP-62" quickfix="false" scope="line" severity="3">
                <file path="CODSTA-CPP\CODSTA-CPP-62.rule"/>
             </rule>
@@ -1112,6 +1145,53 @@
             </rule>
             <rule header="Use offsetof() on valid types and members" id="99" impl="CODSTA-CPP-99" quickfix="false" scope="line" severity="3">
                <file path="CODSTA-CPP\CODSTA-CPP-99.rule"/>
+            </rule>
+         </category>
+         <category description="Coding Conventions for Modern C" name="MC">
+            <rule header="The 'alignof' operator should not be used with an array type as its operand" id="01" impl="CODSTA-MC-01" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-01.rule"/>
+            </rule>
+            <rule header="A declaration of an object should contain at most one explicit alignment specifier" id="02" impl="CODSTA-MC-02" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-02.rule"/>
+            </rule>
+            <rule header="The zero-alignment specifier should not be used in an object declaration" id="03" impl="CODSTA-MC-03" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-03.rule"/>
+            </rule>
+            <rule header="Explicit alignment specifiers in all declarations of an object with internal linkage shall be the same" id="04" impl="CODSTA-MC-04" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-04.rule"/>
+            </rule>
+            <rule header="Every generic selection shall contain a default association" id="05" impl="CODSTA-MC-05" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-05.rule"/>
+            </rule>
+            <rule header="The default association shall be placed first or last in the association list" id="06" impl="CODSTA-MC-06" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-06.rule"/>
+            </rule>
+            <rule header="A generic selection shall indicate at least one non-default association" id="07" impl="CODSTA-MC-07" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-07.rule"/>
+            </rule>
+            <rule header="A generic selection should only be expanded from a macro" id="08" impl="CODSTA-MC-08" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-08.rule"/>
+            </rule>
+            <rule header="A generic association shall list an appropriate type" id="09" impl="CODSTA-MC-09" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-09.rule"/>
+            </rule>
+            <rule header="A generic selection used in a macro definition should have a macro parameter in the controlling expression" id="10" impl="CODSTA-MC-10" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-10.rule"/>
+            </rule>
+            <rule header="A generic selection should not depend on implicit pointer type conversion" id="11" impl="CODSTA-MC-11" quickfix="false" scope="line" severity="4">
+               <file path="CODSTA-MC\CODSTA-MC-11.rule"/>
+            </rule>
+            <rule header="The controlling expression of a generic selection shall have an essential type that matches its standard type" id="12" impl="CODSTA-MC-12" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-12.rule"/>
+            </rule>
+            <rule header="A generic selection that is not expanded from a macro shall not contain potential side effects in the controlling expression" id="13" impl="CODSTA-MC-13" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-13.rule"/>
+            </rule>
+            <rule header="Enumerated types should not be mixed with integer types in generic selections" id="14" impl="CODSTA-MC-14" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-14.rule"/>
+            </rule>
+            <rule header="A generic selection that is expanded from a macro shall evaluate its argument only once" id="15" impl="CODSTA-MC-15" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MC\CODSTA-MC-15.rule"/>
             </rule>
          </category>
          <category description="Coding Conventions for Modern C++" name="MCPP">
@@ -1316,6 +1396,12 @@
             <rule header="Do not create an rvalue reference of std::array" id="54" impl="CODSTA-MCPP-54" quickfix="false" scope="line" severity="3">
                <file path="CODSTA-MCPP\CODSTA-MCPP-54.rule"/>
             </rule>
+            <rule header="Use std::call_once rather than the Double-Checked Locking pattern" id="55" impl="CODSTA-MCPP-55" quickfix="false" scope="line" severity="3">
+               <file path="CODSTA-MCPP\CODSTA-MCPP-55.rule"/>
+            </rule>
+            <rule header="If a class declares a copy or move operation, or a destructor, either via '=default', '=delete', or via a user-provided declaration, then all others of these five special member functions shall be declared as well" id="56" impl="CODSTA-MCPP-56" quickfix="false" scope="line" severity="2">
+               <file path="CODSTA-MCPP\CODSTA-MCPP-56.rule"/>
+            </rule>
          </category>
       </category>
       <category description="Comments" name="COMMENT">
@@ -1515,13 +1601,13 @@
          <rule header="There should be no space between a increment/decrement operator (++/--) and its operand" id="22" impl="FORMAT-22" quickfix="false" scope="line" severity="3">
             <file path="FORMAT\FORMAT-22.rule"/>
          </rule>
-         <rule header="There shall be no white spaces between the &quot;return&quot; or  &quot;sizeof &quot; statements  and its opening parenthesis" id="23" impl="FORMAT-23" quickfix="false" scope="line" severity="3">
+         <rule header="There shall be no white spaces between the 'return' statement or the 'sizeof' operator and the following opening parenthesis" id="23" impl="FORMAT-23" quickfix="false" scope="line" severity="3">
             <file path="FORMAT\FORMAT-23.rule"/>
          </rule>
-         <rule header="There shall be no white spaces surrounding &quot;return&quot; or  &quot;sizeof &quot; statements argument or expression" id="24" impl="FORMAT-24" quickfix="false" scope="line" severity="3">
+         <rule header="There shall be no spaces after the opening '(' and before closing ')' parenthesis that enclose the operand of the 'return' statement or the 'sizeof' operator" id="24" impl="FORMAT-24" quickfix="false" scope="line" severity="3">
             <file path="FORMAT\FORMAT-24.rule"/>
          </rule>
-         <rule header="Parenthesis shall be used with the &quot;sizeof&quot; statement" id="25" impl="FORMAT-25" quickfix="false" scope="line" severity="3">
+         <rule header="The operand of the 'sizeof' operator should be enclosed in parentheses" id="25" impl="FORMAT-25" quickfix="false" scope="line" severity="3">
             <file path="FORMAT\FORMAT-25.rule"/>
          </rule>
          <rule header="Parenthesis shall be used with the &quot;return&quot; statement" id="25_b" impl="FORMAT-25_b" quickfix="false" scope="line" severity="3">
@@ -1659,11 +1745,6 @@
                <file path="HICPP\HICPP-18_2_3-a.rule"/>
             </rule>
          </category>
-         <category name="18_2_4">
-            <rule header="Use std::call_once rather than the Double-Checked Locking pattern" id="a" impl="HICPP-18_2_4-a" quickfix="false" scope="line" severity="3">
-               <file path="HICPP\HICPP-18_2_4-a.rule"/>
-            </rule>
-         </category>
          <category name="18_3_3">
             <rule header="Do not use std::recursive_mutex" id="a" impl="HICPP-18_3_3-a" quickfix="false" scope="line" severity="3">
                <file path="HICPP\HICPP-18_3_3-a.rule"/>
@@ -1717,11 +1798,6 @@
          <category name="5_4_2">
             <rule header="Do not cast an expression to an enumeration type" id="a" impl="HICPP-5_4_2-a" quickfix="false" scope="line" severity="3">
                <file path="HICPP\HICPP-5_4_2-a.rule"/>
-            </rule>
-         </category>
-         <category name="5_8_1">
-            <rule header="Do not use the conditional operator (?:) as a sub-expression" id="a" impl="HICPP-5_8_1-a" quickfix="false" scope="line" severity="3">
-               <file path="HICPP\HICPP-5_8_1-a.rule"/>
             </rule>
          </category>
          <category name="7_1_10">
@@ -1854,8 +1930,14 @@
          <rule header="The initializer for an aggregate or union shall be enclosed in braces" id="16" impl="INIT-16" quickfix="false" scope="line" severity="3">
             <file path="INIT\INIT-16.rule"/>
          </rule>
-         <rule header="User-defined constructors that initialize data members with the same constant values across all constructors should initialize using NSDMI instead" id="17" impl="INIT-17" quickfix="false" scope="line" severity="3">
+         <rule header="The data members initialized with the same constant values across all constructors should be initialized using NSDMI" id="17" impl="INIT-17" quickfix="false" scope="line" severity="3">
             <file path="INIT\INIT-17.rule"/>
+         </rule>
+         <rule header="User-defined constructors that initialize data members with the same constant values across all constructors should initialize using NSDMI instead" id="17_b" impl="INIT-17_b" quickfix="false" scope="line" severity="3">
+            <file path="INIT\INIT-17_b.rule"/>
+         </rule>
+         <rule header="Both NSDMI and a non-static member initializer in a constructor shall not be used in the same type" id="18" impl="INIT-18" quickfix="false" scope="line" severity="3">
+            <file path="INIT\INIT-18.rule"/>
          </rule>
       </category>
       <category description="Metrics" name="METRICS">
@@ -2511,6 +2593,9 @@
          <rule header="All exit paths from a function with non-void return type shall have an explicit return statement with an expression" id="16_8" impl="MISRA2004-16_8" quickfix="false" scope="line" severity="3">
             <file path="MISRA2004\MISRA2004-16_8.rule"/>
          </rule>
+         <rule header="All exit paths from a function, except main(), with non-void return type shall have an explicit return statement with an expression" id="16_8_b" impl="MISRA2004-16_8_b" quickfix="false" scope="line" severity="3">
+            <file path="MISRA2004\MISRA2004-16_8_b.rule"/>
+         </rule>
          <rule header="A function identifier shall only be used with either a preceding '&amp;', or with a parenthesised parameter list, which may be empty" id="16_9" impl="MISRA2004-16_9" quickfix="false" scope="line" severity="3">
             <file path="MISRA2004\MISRA2004-16_9.rule"/>
          </rule>
@@ -2589,8 +2674,14 @@
          <rule header="The library functions atof, atoi and atol from library stdlib.h shall not be used" id="20_10" impl="MISRA2004-20_10" quickfix="false" scope="line" severity="3">
             <file path="MISRA2004\MISRA2004-20_10.rule"/>
          </rule>
-         <rule header="The time handling functions of library time.h shall not be used" id="20_12" impl="MISRA2004-20_12" quickfix="false" scope="line" severity="3">
+         <rule header="The standard header files &lt;time.h&gt; or &lt;ctime&gt; shall not be used" id="20_12" impl="MISRA2004-20_12" quickfix="false" scope="line" severity="3">
             <file path="MISRA2004\MISRA2004-20_12.rule"/>
+         </rule>
+         <rule header="The time handling functions and macros of the library &lt;time.h&gt; shall not be used" id="20_12_b" impl="MISRA2004-20_12_b" quickfix="false" scope="line" severity="3">
+            <file path="MISRA2004\MISRA2004-20_12_b.rule"/>
+         </rule>
+         <rule header="The types defined in the library &lt;time.h&gt; shall not be used" id="20_12_c" impl="MISRA2004-20_12_c" quickfix="false" scope="line" severity="3">
+            <file path="MISRA2004\MISRA2004-20_12_c.rule"/>
          </rule>
          <rule header="Do not #define or #undef identifiers with names which start with underscore" id="20_1_a" impl="MISRA2004-20_1_a" quickfix="false" scope="line" severity="3">
             <file path="MISRA2004\MISRA2004-20_1_a.rule"/>
@@ -2622,13 +2713,13 @@
          <rule header="The macro offsetof, in library stddef.h, shall not be used" id="20_6" impl="MISRA2004-20_6" quickfix="false" scope="line" severity="3">
             <file path="MISRA2004\MISRA2004-20_6.rule"/>
          </rule>
-         <rule header="The setjmp macro and the longjmp function shall not be used" id="20_7" impl="MISRA2004-20_7" quickfix="false" scope="line" severity="3">
+         <rule header="The facilities provided by &lt;setjmp.h&gt; should not be used" id="20_7" impl="MISRA2004-20_7" quickfix="false" scope="line" severity="3">
             <file path="MISRA2004\MISRA2004-20_7.rule"/>
          </rule>
-         <rule header="The standard header file &lt;setjmp.h&gt; shall not be used" id="20_7_b" impl="MISRA2004-20_7_b" quickfix="false" scope="line" severity="3">
+         <rule header="The standard header files &lt;setjmp.h&gt; or &lt;csetjmp&gt; shall not be used" id="20_7_b" impl="MISRA2004-20_7_b" quickfix="false" scope="line" severity="3">
             <file path="MISRA2004\MISRA2004-20_7_b.rule"/>
          </rule>
-         <rule header="The standard header file &lt;signal.h&gt; shall not be used" id="20_8" impl="MISRA2004-20_8" quickfix="false" scope="line" severity="3">
+         <rule header="The standard header files &lt;signal.h&gt; or &lt;csignal&gt; shall not be used" id="20_8" impl="MISRA2004-20_8" quickfix="false" scope="line" severity="3">
             <file path="MISRA2004\MISRA2004-20_8.rule"/>
          </rule>
          <rule header="The signal handling facilities of &lt;signal.h&gt; shall not be used" id="20_8_b" impl="MISRA2004-20_8_b" quickfix="false" scope="line" severity="3">
@@ -3278,6 +3369,9 @@
          <rule header="Avoid using the friend mechanism" id="11" impl="OOP-11" quickfix="false" scope="line" severity="3">
             <file path="OOP\OOP-11.rule"/>
          </rule>
+         <rule header="Friend declarations shall not be used except declarations of comparison operators" id="11_b" impl="OOP-11_b" quickfix="false" scope="line" severity="3">
+            <file path="OOP\OOP-11_b.rule"/>
+         </rule>
          <rule header="Protected member function shall not return non-const handles to private class-data" id="12" impl="OOP-12" quickfix="false" scope="line" severity="3">
             <file path="OOP\OOP-12.rule"/>
          </rule>
@@ -3659,9 +3753,6 @@
          </rule>
          <rule header="Assignment operators shall not be used in conditions without brackets" id="35" impl="PB-35" quickfix="false" scope="line" severity="3">
             <file path="PB\PB-35.rule"/>
-         </rule>
-         <rule header="An object's dynamic type shall not be used from the body of its constructor or destructor" id="36" impl="PB-36" quickfix="false" scope="line" severity="3">
-            <file path="PB\PB-36.rule"/>
          </rule>
          <rule header="The unbounded functions of library &lt;cstring&gt; shall not be used" id="37" impl="PB-37" quickfix="false" scope="line" severity="3">
             <file path="PB\PB-37.rule"/>
@@ -4050,6 +4141,9 @@
          <rule header="The #ifndef, #ifdef, #if, #elif, #else, and #endif pre-processor directives shall only be used for conditional file inclusion and include guards" id="26" impl="PREPROC-26" quickfix="false" scope="line" severity="3">
             <file path="PREPROC\PREPROC-26.rule"/>
          </rule>
+         <rule header="Do not use the 'bool', 'false' or 'true' identifiers in the #undef directive" id="27" impl="PREPROC-27" quickfix="false" scope="line" severity="3">
+            <file path="PREPROC\PREPROC-27.rule"/>
+         </rule>
       </category>
       <category description="Qt Best Practices" name="QT">
          <rule header="Every QObject subclass should contain a Q_OBJECT macro" id="01" impl="QT-01" quickfix="false" scope="line" severity="3">
@@ -4108,10 +4202,10 @@
          </rule>
       </category>
       <category description="Security" name="SECURITY">
-         <rule header="Avoid functions which use time from standard C library" id="01" impl="SECURITY-01" quickfix="false" scope="line" severity="2">
+         <rule header="The 'asctime()' and 'asctime_r()' functions should not be used" id="01" impl="SECURITY-01" quickfix="false" scope="line" severity="3">
             <file path="SECURITY\SECURITY-01.rule"/>
          </rule>
-         <rule header="Avoid functions which use random numbers from standard C library" id="02" impl="SECURITY-02" quickfix="false" scope="line" severity="2">
+         <rule header="The random number generator functions 'rand()' and 'srand()' should not be used" id="02" impl="SECURITY-02" quickfix="false" scope="line" severity="3">
             <file path="SECURITY\SECURITY-02.rule"/>
          </rule>
          <rule header="Do not use the rand() function for generating pseudorandom numbers" id="02_b" impl="SECURITY-02_b" quickfix="false" scope="line" severity="3">
@@ -4338,7 +4432,7 @@
          <rule header="Make sure destination ranges are big enough" id="22" impl="STL-22" quickfix="false" scope="line" severity="3">
             <file path="STL\STL-22.rule"/>
          </rule>
-         <rule header="Follow remove-like algorithms by erase if you really want to remove something" id="23" impl="STL-23" quickfix="false" scope="line" severity="3">
+         <rule header="Follow remove-like algorithms by erase to remove elements from a container" id="23" impl="STL-23" quickfix="false" scope="line" severity="3">
             <file path="STL\STL-23.rule"/>
          </rule>
          <rule header="Avoid using remove and similar algorithms (i.e., remove_if and unique) on containers of dynamically allocated pointers" id="24" impl="STL-24" quickfix="false" scope="line" severity="3">

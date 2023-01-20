@@ -1,0 +1,20 @@
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\git 4\Bank.cxx
+<c>OPT-14
+<b>The parameter 'password' of function 'getAccount' is passed by value
+<l>15
+<k>43
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\git 4\include\Account.hxx
+<c>CODSTA-CPP-04
+<b>Constructor 'Account' allowing conversion should be made explicit
+<l>16
+<k>9
+<s>false
+<N>
+<f>
+<L>0

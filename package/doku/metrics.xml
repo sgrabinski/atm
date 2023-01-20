@@ -1,108 +1,108 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Metrics writerVersion="0.1.1" hasViols="true" id="1673611589308" lang="en_US" climode="true" time="2023-01-17T16:35:24+01:00" machine="STINGER" user="sgrabinski" toolName="DTP Engine for C/C++" execEnv="win32_x86_64" toolId="c++test" toolVer="2021.2.1" toolDispName="C/C++test" project="" buildId="2023-01-17" prjModule="Git 3" tag="${scontrol_branch}-win32_x86_64">
-  <TestConfig machine="STINGER" pseudoUrl="builtin://Recommended Rules" name="Recommended Rules" user="sgrabinski" />
+<Metrics writerVersion="0.1.1" toolVer="2022.2.0" execEnv="win32_x86_64" hasViols="false" project="" buildId="2023-01-20" climode="true" toolDispName="C/C++test" prjModule="git 4" toolId="c++test" machine="STINGER" tag="${scontrol_branch}-win32_x86_64" time="2023-01-20T14:38:13+01:00" id="1673863759414" lang="en_US" user="STINGER$" toolName="DTP Engine for C/C++">
+  <TestConfig machine="STINGER" pseudoUrl="builtin://Recommended Rules" name="Recommended Rules" user="STINGER$" />
   <Analyzers>
-    <Analyzer id="com.parasoft.xtest.scope.analyzer" name="Scope Analyzer" ver="10.5.2.20211215" />
-    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.5.2.20211216B1470" />
-    <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Code Duplication Parser" ver="10.5.2.20211215" />
-    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.5.2.20211216B1470" />
-    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.5.2.20211014B3008" />
-    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.metrics" name="Parasoft C/C++ Metrics Analyzer" ver="10.5.2.20211216B1470" />
-    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.dupcode" name="Code Duplication Detector" ver="10.5.2.20211215" />
-    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.global" name="Parasoft C/C++ Global Static Analyzer" ver="10.5.2.20211216B1470" />
+    <Analyzer id="com.parasoft.xtest.scope.analyzer" name="Scope Analyzer" ver="10.6.1.20221116" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.6.1.20221118B1887" />
+    <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Code Duplication Parser" ver="10.6.1.20221116" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.6.1.20221118B1887" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.6.1.20221108B3828" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.metrics" name="Parasoft C/C++ Metrics Analyzer" ver="10.6.1.20221118B1887" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.dupcode" name="Code Duplication Detector" ver="10.6.1.20221116" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.global" name="Parasoft C/C++ Global Static Analyzer" ver="10.6.1.20221118B1887" />
   </Analyzers>
   <Repositories />
   <Locations>
-    <Loc locRef="1" totLns="14" projId="Git 3" auth="sgrabinski" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/Git%203/Account.cxx" hash="-1636172050" project="Git 3" resProjPath="Account.cxx" projPath="/Git 3" />
-    <Loc locRef="2" totLns="52" projId="Git 3" auth="sgrabinski" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/Git%203/ATM.cxx" hash="-318977119" project="Git 3" resProjPath="ATM.cxx" projPath="/Git 3" />
-    <Loc locRef="3" totLns="40" projId="Git 3" auth="sgrabinski" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/Git%203/Bank.cxx" hash="-1422048276" project="Git 3" resProjPath="Bank.cxx" projPath="/Git 3" />
-    <Loc locRef="4" totLns="18" projId="Git 3" auth="sgrabinski" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/Git%203/BaseDisplay.cxx" hash="-1798372520" project="Git 3" resProjPath="BaseDisplay.cxx" projPath="/Git 3" />
-    <Loc locRef="5" totLns="27" projId="Git 3" auth="sgrabinski" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/Git%203/Main.cxx" hash="-1340482798" project="Git 3" resProjPath="Main.cxx" projPath="/Git 3" />
-    <Loc locRef="6" totLns="16" projId="Git 3" auth="sgrabinski" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/Git%203/include/BaseDisplay.hxx" hash="-2070703729" project="Git 3" resProjPath="include/BaseDisplay.hxx" projPath="/Git 3" />
-    <Loc locRef="7" totLns="39" projId="Git 3" auth="sgrabinski" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/Git%203/include/ATM.hxx" hash="785146300" project="Git 3" resProjPath="include/ATM.hxx" projPath="/Git 3" />
-    <Loc locRef="8" totLns="55" projId="Git 3" auth="sgrabinski" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/Git%203/include/Account.hxx" hash="2036829073" project="Git 3" resProjPath="include/Account.hxx" projPath="/Git 3" />
-    <Loc locRef="9" totLns="25" projId="Git 3" auth="sgrabinski" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/Git%203/include/Bank.hxx" hash="-118678391" project="Git 3" resProjPath="include/Bank.hxx" projPath="/Git 3" />
+    <Loc locRef="1" projId="git 4" auth="STINGER$" project="git 4" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/git%204/Account.cxx" projPath="/git 4" resProjPath="Account.cxx" totLns="14" hash="-1636172050" />
+    <Loc locRef="2" projId="git 4" auth="STINGER$" project="git 4" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/git%204/ATM.cxx" projPath="/git 4" resProjPath="ATM.cxx" totLns="52" hash="-318977119" />
+    <Loc locRef="3" projId="git 4" auth="STINGER$" project="git 4" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/git%204/Bank.cxx" projPath="/git 4" resProjPath="Bank.cxx" totLns="40" hash="-1422048276" />
+    <Loc locRef="4" projId="git 4" auth="STINGER$" project="git 4" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/git%204/BaseDisplay.cxx" projPath="/git 4" resProjPath="BaseDisplay.cxx" totLns="18" hash="-1798372520" />
+    <Loc locRef="5" projId="git 4" auth="STINGER$" project="git 4" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/git%204/Main.cxx" projPath="/git 4" resProjPath="Main.cxx" totLns="27" hash="-1340482798" />
+    <Loc locRef="6" projId="git 4" auth="STINGER$" project="git 4" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/git%204/include/BaseDisplay.hxx" projPath="/git 4" resProjPath="include/BaseDisplay.hxx" totLns="16" hash="-2070703729" />
+    <Loc locRef="7" projId="git 4" auth="STINGER$" project="git 4" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/git%204/include/Account.hxx" projPath="/git 4" resProjPath="include/Account.hxx" totLns="55" hash="2036829073" />
+    <Loc locRef="8" projId="git 4" auth="STINGER$" project="git 4" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/git%204/include/Bank.hxx" projPath="/git 4" resProjPath="include/Bank.hxx" totLns="25" hash="-118678391" />
+    <Loc locRef="9" projId="git 4" auth="STINGER$" project="git 4" uri="file://STINGER/c:/Program%20Files%20(x86)/Jenkins/workspace/git%204/include/ATM.hxx" projPath="/git 4" resProjPath="include/ATM.hxx" totLns="39" hash="785146300" />
   </Locations>
 <Values>
-  <Metric id="METRIC.NOPLIF" itemId="include/BaseDisplay.hxx" item="BaseDisplay.hxx" val="16.0" module="Git 3" ln="1" locRef="6" />
-  <Metric id="METRIC.NOPLIF" itemId="include/ATM.hxx" item="ATM.hxx" val="39.0" module="Git 3" ln="1" locRef="7" />
-  <Metric id="METRIC.NOPLIF" itemId="Bank.cxx" item="Bank.cxx" val="40.0" module="Git 3" ln="1" locRef="3" />
-  <Metric id="METRIC.NOPLIF" itemId="Account.cxx" item="Account.cxx" val="14.0" module="Git 3" ln="1" locRef="1" />
-  <Metric id="METRIC.NOPLIF" itemId="ATM.cxx" item="ATM.cxx" val="52.0" module="Git 3" ln="1" locRef="2" />
-  <Metric id="METRIC.NOPLIF" itemId="include/Account.hxx" item="Account.hxx" val="55.0" module="Git 3" ln="1" locRef="8" />
-  <Metric id="METRIC.NOPLIF" itemId="include/Bank.hxx" item="Bank.hxx" val="25.0" module="Git 3" ln="1" locRef="9" />
-  <Metric id="METRIC.NOPLIF" itemId="BaseDisplay.cxx" item="BaseDisplay.cxx" val="18.0" module="Git 3" ln="1" locRef="4" />
-  <Metric id="METRIC.NOPLIF" itemId="Main.cxx" item="Main.cxx" val="27.0" module="Git 3" ln="1" locRef="5" />
-  <Metric id="METRIC.NOSLIM" itemId="Account.cxx#Account::deposit(double)" item="Account::deposit(double)" val="6.0" module="Git 3" type="Account" ln="3" locRef="1" />
-  <Metric id="METRIC.NOSLIM" itemId="BaseDisplay.cxx#BaseDisplay::showInfoToUser(const char *)" item="BaseDisplay::showInfoToUser(const char *)" val="8.0" module="Git 3" type="BaseDisplay" ln="6" locRef="4" />
-  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::getAccountNumber() const" item="Account::getAccountNumber() const" val="4.0" module="Git 3" type="Account" ln="26" locRef="8" />
-  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::getBalance()" item="Account::getBalance()" val="4.0" module="Git 3" type="Account" ln="22" locRef="8" />
-  <Metric id="METRIC.NOSLIM" itemId="Bank.cxx#Bank::addAccount()" item="Bank::addAccount()" val="8.0" module="Git 3" type="Bank" ln="33" locRef="3" />
-  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::Account(double)" item="Account::Account(double)" val="5.0" module="Git 3" type="Account" ln="16" locRef="8" />
-  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::ATM(Bank *, BaseDisplay *)" item="ATM::ATM(Bank *, BaseDisplay *)" val="6.0" module="Git 3" type="ATM" ln="4" locRef="2" />
-  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::fillUserRequest(ATM::UserRequest, double)" item="ATM::fillUserRequest(ATM::UserRequest, double)" val="14.0" module="Git 3" type="ATM" ln="18" locRef="2" />
-  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::setPassword(const char *)" item="Account::setPassword(const char *)" val="4.0" module="Git 3" type="Account" ln="35" locRef="8" />
-  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::getPassword()" item="Account::getPassword()" val="4.0" module="Git 3" type="Account" ln="39" locRef="8" />
-  <Metric id="METRIC.NOSLIM" itemId="include/BaseDisplay.hxx#BaseDisplay::BaseDisplay()" item="BaseDisplay::BaseDisplay()" val="1.0" module="Git 3" type="BaseDisplay" ln="9" locRef="6" />
-  <Metric id="METRIC.NOSLIM" itemId="Main.cxx#main" item="main" val="16.0" module="Git 3" ln="8" locRef="5" />
-  <Metric id="METRIC.NOSLIM" itemId="Account.cxx#Account::debit(double)" item="Account::debit(double)" val="6.0" module="Git 3" type="Account" ln="10" locRef="1" />
-  <Metric id="METRIC.NOSLIM" itemId="Bank.cxx#Bank::Bank()" item="Bank::Bank()" val="5.0" module="Git 3" type="Bank" ln="4" locRef="3" />
-  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::showBalance()" item="ATM::showBalance()" val="7.0" module="Git 3" type="ATM" ln="32" locRef="2" />
-  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::Account()" item="Account::Account()" val="5.0" module="Git 3" type="Account" ln="11" locRef="8" />
-  <Metric id="METRIC.NOSLIM" itemId="Bank.cxx#Bank::~Bank()" item="Bank::~Bank()" val="4.0" module="Git 3" type="Bank" ln="9" locRef="3" />
-  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::withdraw(double)" item="ATM::withdraw(double)" val="7.0" module="Git 3" type="ATM" ln="46" locRef="2" />
-  <Metric id="METRIC.NOSLIM" itemId="include/BaseDisplay.hxx#BaseDisplay::~BaseDisplay()" item="BaseDisplay::~BaseDisplay()" val="1.0" module="Git 3" type="BaseDisplay" ln="10" locRef="6" />
-  <Metric id="METRIC.NOSLIM" itemId="Bank.cxx#Bank::getAccount(int, std::string)" item="Bank::getAccount(int, std::string)" val="14.0" module="Git 3" type="Bank" ln="15" locRef="3" />
-  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::setAccountNumber(int)" item="Account::setAccountNumber(int)" val="4.0" module="Git 3" type="Account" ln="31" locRef="8" />
-  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::makeDeposit(double)" item="ATM::makeDeposit(double)" val="7.0" module="Git 3" type="ATM" ln="39" locRef="2" />
-  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::viewAccount(int, std::string)" item="ATM::viewAccount(int, std::string)" val="8.0" module="Git 3" type="ATM" ln="10" locRef="2" />
-  <Metric id="METRIC.NOSLIM" itemId="BaseDisplay.cxx#BaseDisplay::showBalance(double)" item="BaseDisplay::showBalance(double)" val="5.0" module="Git 3" type="BaseDisplay" ln="14" locRef="4" />
-  <Metric id="METRIC.CC" itemId="Account.cxx#Account::deposit(double)" item="Account::deposit(double)" val="1.0" module="Git 3" type="Account" ln="3" locRef="1" />
-  <Metric id="METRIC.CC" itemId="Account.cxx#Account::debit(double)" item="Account::debit(double)" val="1.0" module="Git 3" type="Account" ln="10" locRef="1" />
-  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::Account()" item="Account::Account()" val="1.0" module="Git 3" type="Account" ln="11" locRef="8" />
-  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::Account(double)" item="Account::Account(double)" val="1.0" module="Git 3" type="Account" ln="16" locRef="8" />
-  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::getBalance()" item="Account::getBalance()" val="1.0" module="Git 3" type="Account" ln="22" locRef="8" />
-  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::getAccountNumber() const" item="Account::getAccountNumber() const" val="1.0" module="Git 3" type="Account" ln="26" locRef="8" />
-  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::setAccountNumber(int)" item="Account::setAccountNumber(int)" val="1.0" module="Git 3" type="Account" ln="31" locRef="8" />
-  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::setPassword(const char *)" item="Account::setPassword(const char *)" val="1.0" module="Git 3" type="Account" ln="35" locRef="8" />
-  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::getPassword()" item="Account::getPassword()" val="1.0" module="Git 3" type="Account" ln="39" locRef="8" />
-  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::ATM(Bank *, BaseDisplay *)" item="ATM::ATM(Bank *, BaseDisplay *)" val="1.0" module="Git 3" type="ATM" ln="4" locRef="2" />
-  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::viewAccount(int, std::string)" item="ATM::viewAccount(int, std::string)" val="2.0" module="Git 3" type="ATM" ln="10" locRef="2" />
-  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::fillUserRequest(ATM::UserRequest, double)" item="ATM::fillUserRequest(ATM::UserRequest, double)" val="5.0" module="Git 3" type="ATM" ln="18" locRef="2" />
-  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::showBalance()" item="ATM::showBalance()" val="1.0" module="Git 3" type="ATM" ln="32" locRef="2" />
-  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::makeDeposit(double)" item="ATM::makeDeposit(double)" val="1.0" module="Git 3" type="ATM" ln="39" locRef="2" />
-  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::withdraw(double)" item="ATM::withdraw(double)" val="1.0" module="Git 3" type="ATM" ln="46" locRef="2" />
-  <Metric id="METRIC.CC" itemId="include/BaseDisplay.hxx#BaseDisplay::BaseDisplay()" item="BaseDisplay::BaseDisplay()" val="1.0" module="Git 3" type="BaseDisplay" ln="9" locRef="6" />
-  <Metric id="METRIC.CC" itemId="include/BaseDisplay.hxx#BaseDisplay::~BaseDisplay()" item="BaseDisplay::~BaseDisplay()" val="1.0" module="Git 3" type="BaseDisplay" ln="10" locRef="6" />
-  <Metric id="METRIC.CC" itemId="Bank.cxx#Bank::Bank()" item="Bank::Bank()" val="1.0" module="Git 3" type="Bank" ln="4" locRef="3" />
-  <Metric id="METRIC.CC" itemId="Bank.cxx#Bank::~Bank()" item="Bank::~Bank()" val="1.0" module="Git 3" type="Bank" ln="9" locRef="3" />
-  <Metric id="METRIC.CC" itemId="Bank.cxx#Bank::getAccount(int, std::string)" item="Bank::getAccount(int, std::string)" val="3.0" module="Git 3" type="Bank" ln="15" locRef="3" />
-  <Metric id="METRIC.CC" itemId="Bank.cxx#Bank::addAccount()" item="Bank::addAccount()" val="1.0" module="Git 3" type="Bank" ln="33" locRef="3" />
-  <Metric id="METRIC.CC" itemId="BaseDisplay.cxx#BaseDisplay::showInfoToUser(const char *)" item="BaseDisplay::showInfoToUser(const char *)" val="2.0" module="Git 3" type="BaseDisplay" ln="6" locRef="4" />
-  <Metric id="METRIC.CC" itemId="BaseDisplay.cxx#BaseDisplay::showBalance(double)" item="BaseDisplay::showBalance(double)" val="1.0" module="Git 3" type="BaseDisplay" ln="14" locRef="4" />
-  <Metric id="METRIC.CC" itemId="Main.cxx#main" item="main" val="1.0" module="Git 3" ln="8" locRef="5" />
-  <Metric id="METRIC.NBD" itemId="Account.cxx#Account::deposit(double)" item="Account::deposit(double)" val="0.0" module="Git 3" type="Account" ln="3" locRef="1" />
-  <Metric id="METRIC.NBD" itemId="Account.cxx#Account::debit(double)" item="Account::debit(double)" val="0.0" module="Git 3" type="Account" ln="10" locRef="1" />
-  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::Account()" item="Account::Account()" val="0.0" module="Git 3" type="Account" ln="11" locRef="8" />
-  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::Account(double)" item="Account::Account(double)" val="0.0" module="Git 3" type="Account" ln="16" locRef="8" />
-  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::getBalance()" item="Account::getBalance()" val="0.0" module="Git 3" type="Account" ln="22" locRef="8" />
-  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::getAccountNumber() const" item="Account::getAccountNumber() const" val="0.0" module="Git 3" type="Account" ln="26" locRef="8" />
-  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::setAccountNumber(int)" item="Account::setAccountNumber(int)" val="0.0" module="Git 3" type="Account" ln="31" locRef="8" />
-  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::setPassword(const char *)" item="Account::setPassword(const char *)" val="0.0" module="Git 3" type="Account" ln="35" locRef="8" />
-  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::getPassword()" item="Account::getPassword()" val="0.0" module="Git 3" type="Account" ln="39" locRef="8" />
-  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::ATM(Bank *, BaseDisplay *)" item="ATM::ATM(Bank *, BaseDisplay *)" val="0.0" module="Git 3" type="ATM" ln="4" locRef="2" />
-  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::viewAccount(int, std::string)" item="ATM::viewAccount(int, std::string)" val="1.0" module="Git 3" type="ATM" ln="10" locRef="2" />
-  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::fillUserRequest(ATM::UserRequest, double)" item="ATM::fillUserRequest(ATM::UserRequest, double)" val="1.0" module="Git 3" type="ATM" ln="18" locRef="2" />
-  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::showBalance()" item="ATM::showBalance()" val="0.0" module="Git 3" type="ATM" ln="32" locRef="2" />
-  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::makeDeposit(double)" item="ATM::makeDeposit(double)" val="0.0" module="Git 3" type="ATM" ln="39" locRef="2" />
-  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::withdraw(double)" item="ATM::withdraw(double)" val="0.0" module="Git 3" type="ATM" ln="46" locRef="2" />
-  <Metric id="METRIC.NBD" itemId="include/BaseDisplay.hxx#BaseDisplay::BaseDisplay()" item="BaseDisplay::BaseDisplay()" val="0.0" module="Git 3" type="BaseDisplay" ln="9" locRef="6" />
-  <Metric id="METRIC.NBD" itemId="include/BaseDisplay.hxx#BaseDisplay::~BaseDisplay()" item="BaseDisplay::~BaseDisplay()" val="0.0" module="Git 3" type="BaseDisplay" ln="10" locRef="6" />
-  <Metric id="METRIC.NBD" itemId="Bank.cxx#Bank::Bank()" item="Bank::Bank()" val="0.0" module="Git 3" type="Bank" ln="4" locRef="3" />
-  <Metric id="METRIC.NBD" itemId="Bank.cxx#Bank::~Bank()" item="Bank::~Bank()" val="0.0" module="Git 3" type="Bank" ln="9" locRef="3" />
-  <Metric id="METRIC.NBD" itemId="Bank.cxx#Bank::getAccount(int, std::string)" item="Bank::getAccount(int, std::string)" val="1.0" module="Git 3" type="Bank" ln="15" locRef="3" />
-  <Metric id="METRIC.NBD" itemId="Bank.cxx#Bank::addAccount()" item="Bank::addAccount()" val="0.0" module="Git 3" type="Bank" ln="33" locRef="3" />
-  <Metric id="METRIC.NBD" itemId="BaseDisplay.cxx#BaseDisplay::showInfoToUser(const char *)" item="BaseDisplay::showInfoToUser(const char *)" val="1.0" module="Git 3" type="BaseDisplay" ln="6" locRef="4" />
-  <Metric id="METRIC.NBD" itemId="BaseDisplay.cxx#BaseDisplay::showBalance(double)" item="BaseDisplay::showBalance(double)" val="0.0" module="Git 3" type="BaseDisplay" ln="14" locRef="4" />
-  <Metric id="METRIC.NBD" itemId="Main.cxx#main" item="main" val="0.0" module="Git 3" ln="8" locRef="5" />
+  <Metric id="METRIC.NOPLIF" itemId="include/BaseDisplay.hxx" item="BaseDisplay.hxx" val="16.0" module="git 4" ln="1" locRef="6" />
+  <Metric id="METRIC.NOPLIF" itemId="include/Account.hxx" item="Account.hxx" val="55.0" module="git 4" ln="1" locRef="7" />
+  <Metric id="METRIC.NOPLIF" itemId="include/Bank.hxx" item="Bank.hxx" val="25.0" module="git 4" ln="1" locRef="8" />
+  <Metric id="METRIC.NOPLIF" itemId="Main.cxx" item="Main.cxx" val="27.0" module="git 4" ln="1" locRef="5" />
+  <Metric id="METRIC.NOPLIF" itemId="Bank.cxx" item="Bank.cxx" val="40.0" module="git 4" ln="1" locRef="3" />
+  <Metric id="METRIC.NOPLIF" itemId="BaseDisplay.cxx" item="BaseDisplay.cxx" val="18.0" module="git 4" ln="1" locRef="4" />
+  <Metric id="METRIC.NOPLIF" itemId="include/ATM.hxx" item="ATM.hxx" val="39.0" module="git 4" ln="1" locRef="9" />
+  <Metric id="METRIC.NOPLIF" itemId="Account.cxx" item="Account.cxx" val="14.0" module="git 4" ln="1" locRef="1" />
+  <Metric id="METRIC.NOPLIF" itemId="ATM.cxx" item="ATM.cxx" val="52.0" module="git 4" ln="1" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="Account.cxx#Account::deposit(double)" item="Account::deposit(double)" val="6.0" module="git 4" type="Account" ln="3" locRef="1" />
+  <Metric id="METRIC.NOSLIM" itemId="BaseDisplay.cxx#BaseDisplay::showInfoToUser(const char *)" item="BaseDisplay::showInfoToUser(const char *)" val="8.0" module="git 4" type="BaseDisplay" ln="6" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::getAccountNumber() const" item="Account::getAccountNumber() const" val="4.0" module="git 4" type="Account" ln="26" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::getBalance()" item="Account::getBalance()" val="4.0" module="git 4" type="Account" ln="22" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="Bank.cxx#Bank::addAccount()" item="Bank::addAccount()" val="8.0" module="git 4" type="Bank" ln="33" locRef="3" />
+  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::Account(double)" item="Account::Account(double)" val="5.0" module="git 4" type="Account" ln="16" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::ATM(Bank *, BaseDisplay *)" item="ATM::ATM(Bank *, BaseDisplay *)" val="6.0" module="git 4" type="ATM" ln="4" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::fillUserRequest(ATM::UserRequest, double)" item="ATM::fillUserRequest(ATM::UserRequest, double)" val="14.0" module="git 4" type="ATM" ln="18" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::setPassword(const char *)" item="Account::setPassword(const char *)" val="4.0" module="git 4" type="Account" ln="35" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::getPassword()" item="Account::getPassword()" val="4.0" module="git 4" type="Account" ln="39" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="include/BaseDisplay.hxx#BaseDisplay::BaseDisplay()" item="BaseDisplay::BaseDisplay()" val="1.0" module="git 4" type="BaseDisplay" ln="9" locRef="6" />
+  <Metric id="METRIC.NOSLIM" itemId="Main.cxx#main" item="main" val="16.0" module="git 4" ln="8" locRef="5" />
+  <Metric id="METRIC.NOSLIM" itemId="Account.cxx#Account::debit(double)" item="Account::debit(double)" val="6.0" module="git 4" type="Account" ln="10" locRef="1" />
+  <Metric id="METRIC.NOSLIM" itemId="Bank.cxx#Bank::Bank()" item="Bank::Bank()" val="5.0" module="git 4" type="Bank" ln="4" locRef="3" />
+  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::showBalance()" item="ATM::showBalance()" val="7.0" module="git 4" type="ATM" ln="32" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::Account()" item="Account::Account()" val="5.0" module="git 4" type="Account" ln="11" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="Bank.cxx#Bank::~Bank()" item="Bank::~Bank()" val="4.0" module="git 4" type="Bank" ln="9" locRef="3" />
+  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::withdraw(double)" item="ATM::withdraw(double)" val="7.0" module="git 4" type="ATM" ln="46" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="include/BaseDisplay.hxx#BaseDisplay::~BaseDisplay()" item="BaseDisplay::~BaseDisplay()" val="1.0" module="git 4" type="BaseDisplay" ln="10" locRef="6" />
+  <Metric id="METRIC.NOSLIM" itemId="Bank.cxx#Bank::getAccount(int, std::string)" item="Bank::getAccount(int, std::string)" val="14.0" module="git 4" type="Bank" ln="15" locRef="3" />
+  <Metric id="METRIC.NOSLIM" itemId="include/Account.hxx#Account::setAccountNumber(int)" item="Account::setAccountNumber(int)" val="4.0" module="git 4" type="Account" ln="31" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::makeDeposit(double)" item="ATM::makeDeposit(double)" val="7.0" module="git 4" type="ATM" ln="39" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="ATM.cxx#ATM::viewAccount(int, std::string)" item="ATM::viewAccount(int, std::string)" val="8.0" module="git 4" type="ATM" ln="10" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="BaseDisplay.cxx#BaseDisplay::showBalance(double)" item="BaseDisplay::showBalance(double)" val="5.0" module="git 4" type="BaseDisplay" ln="14" locRef="4" />
+  <Metric id="METRIC.CC" itemId="Account.cxx#Account::deposit(double)" item="Account::deposit(double)" val="1.0" module="git 4" type="Account" ln="3" locRef="1" />
+  <Metric id="METRIC.CC" itemId="Account.cxx#Account::debit(double)" item="Account::debit(double)" val="1.0" module="git 4" type="Account" ln="10" locRef="1" />
+  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::Account()" item="Account::Account()" val="1.0" module="git 4" type="Account" ln="11" locRef="7" />
+  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::Account(double)" item="Account::Account(double)" val="1.0" module="git 4" type="Account" ln="16" locRef="7" />
+  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::getBalance()" item="Account::getBalance()" val="1.0" module="git 4" type="Account" ln="22" locRef="7" />
+  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::getAccountNumber() const" item="Account::getAccountNumber() const" val="1.0" module="git 4" type="Account" ln="26" locRef="7" />
+  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::setAccountNumber(int)" item="Account::setAccountNumber(int)" val="1.0" module="git 4" type="Account" ln="31" locRef="7" />
+  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::setPassword(const char *)" item="Account::setPassword(const char *)" val="1.0" module="git 4" type="Account" ln="35" locRef="7" />
+  <Metric id="METRIC.CC" itemId="include/Account.hxx#Account::getPassword()" item="Account::getPassword()" val="1.0" module="git 4" type="Account" ln="39" locRef="7" />
+  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::ATM(Bank *, BaseDisplay *)" item="ATM::ATM(Bank *, BaseDisplay *)" val="1.0" module="git 4" type="ATM" ln="4" locRef="2" />
+  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::viewAccount(int, std::string)" item="ATM::viewAccount(int, std::string)" val="2.0" module="git 4" type="ATM" ln="10" locRef="2" />
+  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::fillUserRequest(ATM::UserRequest, double)" item="ATM::fillUserRequest(ATM::UserRequest, double)" val="5.0" module="git 4" type="ATM" ln="18" locRef="2" />
+  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::showBalance()" item="ATM::showBalance()" val="1.0" module="git 4" type="ATM" ln="32" locRef="2" />
+  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::makeDeposit(double)" item="ATM::makeDeposit(double)" val="1.0" module="git 4" type="ATM" ln="39" locRef="2" />
+  <Metric id="METRIC.CC" itemId="ATM.cxx#ATM::withdraw(double)" item="ATM::withdraw(double)" val="1.0" module="git 4" type="ATM" ln="46" locRef="2" />
+  <Metric id="METRIC.CC" itemId="include/BaseDisplay.hxx#BaseDisplay::BaseDisplay()" item="BaseDisplay::BaseDisplay()" val="1.0" module="git 4" type="BaseDisplay" ln="9" locRef="6" />
+  <Metric id="METRIC.CC" itemId="include/BaseDisplay.hxx#BaseDisplay::~BaseDisplay()" item="BaseDisplay::~BaseDisplay()" val="1.0" module="git 4" type="BaseDisplay" ln="10" locRef="6" />
+  <Metric id="METRIC.CC" itemId="Bank.cxx#Bank::Bank()" item="Bank::Bank()" val="1.0" module="git 4" type="Bank" ln="4" locRef="3" />
+  <Metric id="METRIC.CC" itemId="Bank.cxx#Bank::~Bank()" item="Bank::~Bank()" val="1.0" module="git 4" type="Bank" ln="9" locRef="3" />
+  <Metric id="METRIC.CC" itemId="Bank.cxx#Bank::getAccount(int, std::string)" item="Bank::getAccount(int, std::string)" val="3.0" module="git 4" type="Bank" ln="15" locRef="3" />
+  <Metric id="METRIC.CC" itemId="Bank.cxx#Bank::addAccount()" item="Bank::addAccount()" val="1.0" module="git 4" type="Bank" ln="33" locRef="3" />
+  <Metric id="METRIC.CC" itemId="BaseDisplay.cxx#BaseDisplay::showInfoToUser(const char *)" item="BaseDisplay::showInfoToUser(const char *)" val="2.0" module="git 4" type="BaseDisplay" ln="6" locRef="4" />
+  <Metric id="METRIC.CC" itemId="BaseDisplay.cxx#BaseDisplay::showBalance(double)" item="BaseDisplay::showBalance(double)" val="1.0" module="git 4" type="BaseDisplay" ln="14" locRef="4" />
+  <Metric id="METRIC.CC" itemId="Main.cxx#main" item="main" val="1.0" module="git 4" ln="8" locRef="5" />
+  <Metric id="METRIC.NBD" itemId="Account.cxx#Account::deposit(double)" item="Account::deposit(double)" val="0.0" module="git 4" type="Account" ln="3" locRef="1" />
+  <Metric id="METRIC.NBD" itemId="Account.cxx#Account::debit(double)" item="Account::debit(double)" val="0.0" module="git 4" type="Account" ln="10" locRef="1" />
+  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::Account()" item="Account::Account()" val="0.0" module="git 4" type="Account" ln="11" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::Account(double)" item="Account::Account(double)" val="0.0" module="git 4" type="Account" ln="16" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::getBalance()" item="Account::getBalance()" val="0.0" module="git 4" type="Account" ln="22" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::getAccountNumber() const" item="Account::getAccountNumber() const" val="0.0" module="git 4" type="Account" ln="26" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::setAccountNumber(int)" item="Account::setAccountNumber(int)" val="0.0" module="git 4" type="Account" ln="31" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::setPassword(const char *)" item="Account::setPassword(const char *)" val="0.0" module="git 4" type="Account" ln="35" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="include/Account.hxx#Account::getPassword()" item="Account::getPassword()" val="0.0" module="git 4" type="Account" ln="39" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::ATM(Bank *, BaseDisplay *)" item="ATM::ATM(Bank *, BaseDisplay *)" val="0.0" module="git 4" type="ATM" ln="4" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::viewAccount(int, std::string)" item="ATM::viewAccount(int, std::string)" val="1.0" module="git 4" type="ATM" ln="10" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::fillUserRequest(ATM::UserRequest, double)" item="ATM::fillUserRequest(ATM::UserRequest, double)" val="1.0" module="git 4" type="ATM" ln="18" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::showBalance()" item="ATM::showBalance()" val="0.0" module="git 4" type="ATM" ln="32" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::makeDeposit(double)" item="ATM::makeDeposit(double)" val="0.0" module="git 4" type="ATM" ln="39" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="ATM.cxx#ATM::withdraw(double)" item="ATM::withdraw(double)" val="0.0" module="git 4" type="ATM" ln="46" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="include/BaseDisplay.hxx#BaseDisplay::BaseDisplay()" item="BaseDisplay::BaseDisplay()" val="0.0" module="git 4" type="BaseDisplay" ln="9" locRef="6" />
+  <Metric id="METRIC.NBD" itemId="include/BaseDisplay.hxx#BaseDisplay::~BaseDisplay()" item="BaseDisplay::~BaseDisplay()" val="0.0" module="git 4" type="BaseDisplay" ln="10" locRef="6" />
+  <Metric id="METRIC.NBD" itemId="Bank.cxx#Bank::Bank()" item="Bank::Bank()" val="0.0" module="git 4" type="Bank" ln="4" locRef="3" />
+  <Metric id="METRIC.NBD" itemId="Bank.cxx#Bank::~Bank()" item="Bank::~Bank()" val="0.0" module="git 4" type="Bank" ln="9" locRef="3" />
+  <Metric id="METRIC.NBD" itemId="Bank.cxx#Bank::getAccount(int, std::string)" item="Bank::getAccount(int, std::string)" val="1.0" module="git 4" type="Bank" ln="15" locRef="3" />
+  <Metric id="METRIC.NBD" itemId="Bank.cxx#Bank::addAccount()" item="Bank::addAccount()" val="0.0" module="git 4" type="Bank" ln="33" locRef="3" />
+  <Metric id="METRIC.NBD" itemId="BaseDisplay.cxx#BaseDisplay::showInfoToUser(const char *)" item="BaseDisplay::showInfoToUser(const char *)" val="1.0" module="git 4" type="BaseDisplay" ln="6" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="BaseDisplay.cxx#BaseDisplay::showBalance(double)" item="BaseDisplay::showBalance(double)" val="0.0" module="git 4" type="BaseDisplay" ln="14" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="Main.cxx#main" item="main" val="0.0" module="git 4" ln="8" locRef="5" />
 </Values></Metrics>

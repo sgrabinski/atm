@@ -1,0 +1,7 @@
+file=c:\Program Files (x86)\Jenkins\workspace\git 4\ATM.cxx
+compiler=gcc_9-64
+working_dir=c:\Program Files (x86)\Jenkins\workspace\git 4\build
+arg=c++.exe
+arg=-Ic:/Program Files (x86)/Jenkins/workspace/git 4/include
+arg=-c
+arg=c:\Program Files (x86)\Jenkins\workspace\git 4\ATM.cxx

@@ -1,0 +1,45 @@
+---------------- build info ----------------
+working_dir=c:/Program Files (x86)/Jenkins/workspace/git 4/build
+project_name=build
+arg=c++.exe
+arg=-Ic:/Program Files (x86)/Jenkins/workspace/git 4/include
+arg=-o
+arg=CMakeFiles/atm.dir/Account.cxx.o
+arg=-c
+arg=c:/Program Files (x86)/Jenkins/workspace/git 4/Account.cxx
+---------------- build info ----------------
+working_dir=c:/Program Files (x86)/Jenkins/workspace/git 4/build
+project_name=build
+arg=c++.exe
+arg=-Ic:/Program Files (x86)/Jenkins/workspace/git 4/include
+arg=-o
+arg=CMakeFiles/atm.dir/ATM.cxx.o
+arg=-c
+arg=c:/Program Files (x86)/Jenkins/workspace/git 4/ATM.cxx
+---------------- build info ----------------
+working_dir=c:/Program Files (x86)/Jenkins/workspace/git 4/build
+project_name=build
+arg=c++.exe
+arg=-Ic:/Program Files (x86)/Jenkins/workspace/git 4/include
+arg=-o
+arg=CMakeFiles/atm.dir/Bank.cxx.o
+arg=-c
+arg=c:/Program Files (x86)/Jenkins/workspace/git 4/Bank.cxx
+---------------- build info ----------------
+working_dir=c:/Program Files (x86)/Jenkins/workspace/git 4/build
+project_name=build
+arg=c++.exe
+arg=-Ic:/Program Files (x86)/Jenkins/workspace/git 4/include
+arg=-o
+arg=CMakeFiles/atm.dir/BaseDisplay.cxx.o
+arg=-c
+arg=c:/Program Files (x86)/Jenkins/workspace/git 4/BaseDisplay.cxx
+---------------- build info ----------------
+working_dir=c:/Program Files (x86)/Jenkins/workspace/git 4/build
+project_name=build
+arg=c++.exe
+arg=-Ic:/Program Files (x86)/Jenkins/workspace/git 4/include
+arg=-o
+arg=CMakeFiles/atm.dir/Main.cxx.o
+arg=-c
+arg=c:/Program Files (x86)/Jenkins/workspace/git 4/Main.cxx

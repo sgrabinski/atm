@@ -1,0 +1,50 @@
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\git 4\ATM.cxx
+<c>OPT-14
+<b>The parameter 'password' of function 'viewAccount' is passed by value
+<l>10
+<k>49
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\git 4\ATM.cxx
+<c>INIT-06
+<b>Constructor does not initialize members: 'myCurrentAccount'
+<l>4
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\git 4\include\Account.hxx
+<c>CODSTA-CPP-04
+<b>Constructor 'Account' allowing conversion should be made explicit
+<l>16
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\git 4\include\Bank.hxx
+<c>OPT-14
+<b>The parameter 'password' of function 'getAccount' is passed by value
+<l>16
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\Program Files (x86)\Jenkins\workspace\git 4\include\BaseDisplay.hxx
+<c>OOP-23
+<b>Class 'BaseDisplay' has virtual functions without a virtual destructor
+<l>4
+<k>7
+<s>false
+<N>
+<f>
+<L>0
