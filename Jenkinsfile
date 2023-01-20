@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Test') {
             steps { 
-		bat "${CPPTEST_HOME}/cpptestcli -config \"${CONFIG}\" -compiler gcc_9-64 -report package/doku -module . -input build/fixed_compile_commands.json" 
+		bat "${CPPTEST_HOME}/cpptestcli -config \"${CONFIG}\" -compiler gcc_9-64 -report package/doku -module . -input build/fixed_compile_commands.json -localsettings d:/localSettings.properties" 
 	    }
             post {
                 always {
