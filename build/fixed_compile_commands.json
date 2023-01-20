@@ -1,27 +1,27 @@
 [
 {
-  "directory": "c:/Program Files (x86)/Jenkins/workspace/Git 3/build",
-  "command": "c++.exe  -I\"c:/Program Files (x86)/Jenkins/workspace/Git 3/include\"  -o CMakeFiles/atm.dir/Account.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/Git 3/Account.cxx\"",
-  "file": "c:/Program Files (x86)/Jenkins/workspace/Git 3/Account.cxx"
+  "directory": "c:/Program Files (x86)/Jenkins/workspace/git 4/build",
+  "command": "c++.exe  -I\"c:/Program Files (x86)/Jenkins/workspace/git 4/include\"  -o CMakeFiles/atm.dir/Account.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/git 4/Account.cxx\"",
+  "file": "c:/Program Files (x86)/Jenkins/workspace/git 4/Account.cxx"
 },
 {
-  "directory": "c:/Program Files (x86)/Jenkins/workspace/Git 3/build",
-  "command": "c++.exe  -I\"c:/Program Files (x86)/Jenkins/workspace/Git 3/include\"  -o CMakeFiles/atm.dir/ATM.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/Git 3/ATM.cxx\"",
-  "file": "c:/Program Files (x86)/Jenkins/workspace/Git 3/ATM.cxx"
+  "directory": "c:/Program Files (x86)/Jenkins/workspace/git 4/build",
+  "command": "c++.exe  -I\"c:/Program Files (x86)/Jenkins/workspace/git 4/include\"  -o CMakeFiles/atm.dir/ATM.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/git 4/ATM.cxx\"",
+  "file": "c:/Program Files (x86)/Jenkins/workspace/git 4/ATM.cxx"
 },
 {
-  "directory": "c:/Program Files (x86)/Jenkins/workspace/Git 3/build",
-  "command": "c++.exe  -I\"c:/Program Files (x86)/Jenkins/workspace/Git 3/include\"  -o CMakeFiles/atm.dir/Bank.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/Git 3/Bank.cxx\"",
-  "file": "c:/Program Files (x86)/Jenkins/workspace/Git 3/Bank.cxx"
+  "directory": "c:/Program Files (x86)/Jenkins/workspace/git 4/build",
+  "command": "c++.exe  -I\"c:/Program Files (x86)/Jenkins/workspace/git 4/include\"  -o CMakeFiles/atm.dir/Bank.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/git 4/Bank.cxx\"",
+  "file": "c:/Program Files (x86)/Jenkins/workspace/git 4/Bank.cxx"
 },
 {
-  "directory": "c:/Program Files (x86)/Jenkins/workspace/Git 3/build",
-  "command": "c++.exe  -I\"c:/Program Files (x86)/Jenkins/workspace/Git 3/include\"  -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/Git 3/BaseDisplay.cxx\"",
-  "file": "c:/Program Files (x86)/Jenkins/workspace/Git 3/BaseDisplay.cxx"
+  "directory": "c:/Program Files (x86)/Jenkins/workspace/git 4/build",
+  "command": "c++.exe  -I\"c:/Program Files (x86)/Jenkins/workspace/git 4/include\"  -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/git 4/BaseDisplay.cxx\"",
+  "file": "c:/Program Files (x86)/Jenkins/workspace/git 4/BaseDisplay.cxx"
 },
 {
-  "directory": "c:/Program Files (x86)/Jenkins/workspace/Git 3/build",
-  "command": "c++.exe  -I\"c:/Program Files (x86)/Jenkins/workspace/Git 3/include\"  -o CMakeFiles/atm.dir/Main.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/Git 3/Main.cxx\"",
-  "file": "c:/Program Files (x86)/Jenkins/workspace/Git 3/Main.cxx"
+  "directory": "c:/Program Files (x86)/Jenkins/workspace/git 4/build",
+  "command": "c++.exe  -I\"c:/Program Files (x86)/Jenkins/workspace/git 4/include\"  -o CMakeFiles/atm.dir/Main.cxx.o -c \"c:/Program Files (x86)/Jenkins/workspace/git 4/Main.cxx\"",
+  "file": "c:/Program Files (x86)/Jenkins/workspace/git 4/Main.cxx"
 }
 ]

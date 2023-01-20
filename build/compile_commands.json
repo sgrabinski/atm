@@ -1,27 +1,27 @@
 [
 {
-  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/build",
-  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/include\"  -o CMakeFiles/atm.dir/Account.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/Account.cxx\"",
-  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/Account.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/build",
+  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/include\"  -o CMakeFiles/atm.dir/Account.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/Account.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/Account.cxx"
 },
 {
-  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/build",
-  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/include\"  -o CMakeFiles/atm.dir/ATM.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/ATM.cxx\"",
-  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/ATM.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/build",
+  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/include\"  -o CMakeFiles/atm.dir/ATM.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/ATM.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/ATM.cxx"
 },
 {
-  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/build",
-  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/include\"  -o CMakeFiles/atm.dir/Bank.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/Bank.cxx\"",
-  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/Bank.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/build",
+  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/include\"  -o CMakeFiles/atm.dir/Bank.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/Bank.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/Bank.cxx"
 },
 {
-  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/build",
-  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/include\"  -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/BaseDisplay.cxx\"",
-  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/BaseDisplay.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/build",
+  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/include\"  -o CMakeFiles/atm.dir/BaseDisplay.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/BaseDisplay.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/BaseDisplay.cxx"
 },
 {
-  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/build",
-  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/include\"  -o CMakeFiles/atm.dir/Main.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/Main.cxx\"",
-  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/Git 4/Main.cxx"
+  "directory": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/build",
+  "command": "/usr/bin/c++.exe  -I\"/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/include\"  -o CMakeFiles/atm.dir/Main.cxx.o -c \"/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/Main.cxx\"",
+  "file": "/cygdrive/c/Program Files (x86)/Jenkins/workspace/git 4/Main.cxx"
 }
 ]
