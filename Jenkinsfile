@@ -3,6 +3,7 @@ pipeline {
     environment {
         CPPTEST_HOME = "c:/Progra~1/Parasoft/C++test/2021.1Standard"
         CMAKE_HOME = "c:/cygwin64/bin"
+		CONFIG = "builtin://Recommended Rules"
     }
     stages {
         stage('Build') {
@@ -17,7 +18,7 @@ pipeline {
         }
         stage('Test') {
             steps { 
-		bat "${CPPTEST_HOME}/cpptestcli -config user://RecommendedRules -compiler gcc_9-64 -report package/doku -module . -input build/fixed_compile_commands.json" 
+		bat "${CPPTEST_HOME}/cpptestcli -config \"${CONFIG}\" -compiler gcc_9-64 -report package/doku -module . -input build/fixed_compile_commands.json" 
 	    }
             post {
                 always {
